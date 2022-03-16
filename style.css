@@ -1,0 +1,33 @@
+
+
+.container {
+    background-color: rgb(122, 24, 24);
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    height: ;
+    border: black solid 1px;
+}
+
+.container-sm {
+    @media only screen and (max-width: 600px)
+}
+
+.container-xl {
+    @media only screen and (min-width: 992px)
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 350px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+}
